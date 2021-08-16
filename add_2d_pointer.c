@@ -5,7 +5,7 @@ int main()
     int *a=arr,sum=0;
     for(a=&arr[0][0];a<=&arr[2][2];a++)
     {
-        sum += *a;
+        sum += *a; //a points to the array 
         
     }
     printf("%d\n",sum);
